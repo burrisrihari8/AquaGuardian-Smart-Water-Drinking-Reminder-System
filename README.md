@@ -698,6 +698,11 @@ Instead of treating the RTC, LCD, keypad, interrupts, GPIO, LEDs and buzzer as i
 # 👨‍💻 Project
 
 **AquaGuardian — Smart Water Drinking Reminder System**
+## 👨‍💻 Author
+
+**BURRI SRIHARI**
+
+### 🔧 Embedded Systems / ARM7 Project
 
 **Platform:** LPC2148 ARM7
 **Development Environment:** Keil µVision
@@ -709,7 +714,7 @@ Instead of treating the RTC, LCD, keypad, interrupts, GPIO, LEDs and buzzer as i
 <p align="center">
   <b>💧 Stay Hydrated • Stay Healthy • Stay Alert 💧</b>
 </p>
-Author: BURRI SRIHARI
+
 <p align="center">
   ⭐ If you find this project useful, consider giving the repository a star!
 </p>

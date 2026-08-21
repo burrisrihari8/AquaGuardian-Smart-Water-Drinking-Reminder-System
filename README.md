@@ -667,6 +667,13 @@ MissedReminders++
 and the system returns to normal operation.
 
 ---
+## Proteus Simulation
+
+<img src="Welcome msg.png" width="500">
+<img src="Window-1.png" width="500">
+<img src="Window-2.png" width="500">
+<img src="Window-3.png" width="500">
+<img src="reminder.png" width="500">
 
 # 🚀 Future Improvements
 

@@ -542,7 +542,7 @@ AquaGuardian/
 # 🔄 Complete System Flow
 
 <p align="center">
-  <img src="system-flowchart.jpg" alt="AquaGuardian System Flowchart" width="800">
+  <img src="Flow_diagram.jpeg" alt="AquaGuardian System Flowchart" width="800">
 </p>
 
 --
@@ -565,6 +565,18 @@ Daily hydration goal achieved
 ```
 
 ---
+
+### 🖥️ LCD Output Screens
+
+The following image shows the different LCD outputs and display screens of the AquaGuardian system during operation.
+
+<p align="center">
+  <img src="Lcd_outputs.jpeg" alt="AquaGuardian LCD Outputs" width="800">
+</p>
+
+<p align="center">
+  <i>Figure: AquaGuardian LCD Display Outputs</i>
+</p>
 
 # 🧠 Embedded Concepts Demonstrated
 

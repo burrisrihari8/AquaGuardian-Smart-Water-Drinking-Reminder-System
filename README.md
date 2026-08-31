@@ -250,7 +250,7 @@ The user can enter configuration mode using **EINT0**.
 
 The project uses a **4×4 matrix keypad**.
 
-<img src="Pictures/Keypad.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+<img src="Pictures/Keypad.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 During numeric input:
 

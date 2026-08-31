@@ -1,4 +1,4 @@
-//kpm.c
+//keypad.c
 
 // 4x4 Matrix Keypad driver.
 // This file contains functions to:

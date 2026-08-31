@@ -72,12 +72,7 @@ AquaGuardian uses a **16×2 LCD** as the primary user interface.
 
 ## 🏠 Home Screen — Time & Date
 
-```text
-┌────────────────┐
-│ 11:45:23 FRI   │
-│ 21/08/2026     │
-└────────────────┘
-```
+ <img src="Pictures/Window-1_Lcd.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="50%">
 
 Displays:
 

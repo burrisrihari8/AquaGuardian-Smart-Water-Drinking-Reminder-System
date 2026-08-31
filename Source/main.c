@@ -1,4 +1,4 @@
-// test_1.c
+// main.c
 
 #include "lcd.h"
 #include "lcd_defines.h"

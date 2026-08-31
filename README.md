@@ -62,7 +62,7 @@ The system tracks the amount of water consumed throughout the day and displays t
 # 🧠 System Concept
 
 <p align="center">
-  <img src="Pictures/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="100%">
+  <img src="Pictures/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="80%">
 </p>
 ---
 

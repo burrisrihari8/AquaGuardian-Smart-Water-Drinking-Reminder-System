@@ -451,7 +451,7 @@ AquaGuardian/
 # 🔄 Complete System Flow
 
 <p align="center">
-  <img src="Pictures/Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="85%">
+  <img src="Pictures/Flow_diagram.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="65%">
 </p>
 
 --

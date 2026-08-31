@@ -541,52 +541,11 @@ AquaGuardian/
 
 # 🔄 Complete System Flow
 
-```text
-                  POWER ON
-                     │
-                     ▼
-              Initialize Modules
-                     │
-                     ▼
-              💧 AQUAGUARDIAN
-                 SYSTEM ON
-                     │
-                     ▼
-                Home Screen
-                     │
-          ┌──────────┼──────────┐
-          │          │          │
-          ▼          ▼          ▼
-       Time/Date  Hydration  Next Reminder
-          │          │          │
-          └──────────┼──────────┘
-                     │
-                     ▼
-             Reminder Time?
-                /         \
-              NO           YES
-              │             │
-              │             ▼
-              │       Reminder Active
-              │             │
-              │       ┌─────┴─────┐
-              │       │           │
-              │       ▼           ▼
-              │    Drink SW    30 sec
-              │       │        Timeout
-              │       │           │
-              │       ▼           ▼
-              │   DrinkWater   Missed++
-              │       │           │
-              │       └─────┬─────┘
-              │             │
-              └─────────────┘
-                     │
-                     ▼
-               Next Reminder
-```
+<p align="center">
+  <img src="system-flowchart.jpg" alt="AquaGuardian System Flowchart" width="800">
+</p>
 
----
+--
 
 # 🟢 LED Status
 

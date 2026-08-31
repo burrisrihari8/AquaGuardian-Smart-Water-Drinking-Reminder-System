@@ -72,7 +72,7 @@ AquaGuardian uses a **16×2 LCD** as the primary user interface.
 
 ## 🏠 Home Screen — Time & Date
 
- <img src="Pictures/Window-1_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+ <img src="Pictures/Window-1_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 Displays:
 
@@ -84,7 +84,7 @@ Displays:
 
 ## 💧 Home Screen — Hydration Status
 
- <img src="Pictures/Window-2_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+ <img src="Pictures/Window-2_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 Displays:
 
@@ -97,7 +97,7 @@ Displays:
 
 ## 🔔 Home Screen — Next Reminder
 
-<img src="Pictures/Window-3_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+<img src="Pictures/Window-3_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 Displays the next scheduled reminder and the number of missed reminders.
 
@@ -107,7 +107,7 @@ Displays the next scheduled reminder and the number of missed reminders.
 
 When the reminder interval expires, AquaGuardian enters **Reminder Mode**.
 
-<img src="Pictures/Reminder_alert.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+<img src="Pictures/Reminder_alert.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 The reminder includes:
 
@@ -221,13 +221,13 @@ The reminder task also stops generating further reminders after the goal is comp
 
 The user can enter configuration mode using **EINT0**.
 
-<img src="Pictures/Config_menu.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+<img src="Pictures/Config_menu.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 ### RTC Menu
 
-<img src="Pictures/RTC_Config-1.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+<img src="Pictures/RTC_Config-1.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
-<img src="Pictures/RTC_Config-2.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
+<img src="Pictures/RTC_Config-2.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 ### Available Configuration
 

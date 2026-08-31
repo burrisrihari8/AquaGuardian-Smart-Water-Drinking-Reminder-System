@@ -225,19 +225,9 @@ The user can enter configuration mode using **EINT0**.
 
 ### RTC Menu
 
-```text
-┌────────────────┐
-│1:HOUR 2:MIN    │
-│3:SEC  4:DATE   │
-└────────────────┘
-```
+<img src="Pictures/RTC_Config-1.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
 
-```text
-┌────────────────┐
-│5:MONTH 6:YEAR  │
-│7:DAY   8:EXIT  │
-└────────────────┘
-```
+<img src="Pictures/RTC_Config-2.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="50%">
 
 ### Available Configuration
 

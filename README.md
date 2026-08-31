@@ -33,7 +33,7 @@ The system tracks the amount of water consumed throughout the day and displays t
 ## 🧩 Project Block Diagram
 
 <p align="center">
-  <img src="Pictures/Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="100%">
+  <img src="Pictures/Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="85%">
 </p>
 ---
 
@@ -61,10 +61,7 @@ The system tracks the amount of water consumed throughout the day and displays t
 
 # 🧠 System Concept
 
-<p align="center">
-  <img src="Pictures/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="75%">
-</p>
----
+  <img src="Pictures/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="50%">
 
 # 🖥️ LCD User Interface
 
@@ -454,7 +451,7 @@ AquaGuardian/
 # 🔄 Complete System Flow
 
 <p align="center">
-  <img src="Flow_diagram.jpeg" alt="AquaGuardian System Flowchart" width="800">
+  <img src="Pictures/Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="85%">
 </p>
 
 --
@@ -483,7 +480,7 @@ Daily hydration goal achieved
 The following image shows the different LCD outputs and display screens of the AquaGuardian system during operation.
 
 <p align="center">
-  <img src="Lcd_outputs.jpeg" alt="AquaGuardian LCD Outputs" width="800">
+  <img src="Pictures/Lcd_outputs.jpeg" alt="AquaGuardian LCD Outputs" width="800">
 </p>
 
 <p align="center">

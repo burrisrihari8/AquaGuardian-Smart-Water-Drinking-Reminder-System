@@ -203,12 +203,7 @@ Consumed >= Goal
 
 the system considers the daily hydration goal completed.
 
-```text
-┌────────────────┐
-│  GOAL ACHIEVED │
-│   GOOD JOB!    │
-└────────────────┘
-```
+<img src="Pictures/Goal_Achieved_Window.png" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 🟢 **Green LED ON**
 
@@ -413,8 +408,30 @@ AquaGuardian/
 │   ├── switch.h
 │   └── eint.h
 │
-└── 📁 Proteus/
-    └── AquaGuardian simulation files
+├── 📁 Keil Project File/
+│   └── 📄 AquaGuardian-Smart-Water-Drinking-Reminder-System.uvproj
+│
+├── 📁 Hex_file/
+│   └── 📄 AquaGuardian-Smart-Water-Drinking-Reminder-System.hex
+│
+├── 📁 Proteus Designs/
+│   └── 📄 Aquaguardian_Design.pdf
+│
+└── 📁 Pictures/
+    ├── 🖼️ Block Diagram.png
+    ├── 🖼️ Config_menu.jpeg
+    ├── 🖼️ Flow_diagram.jpeg
+    ├── 🖼️ Goal_Achieved_Window.png
+    ├── 🖼️ Keypad.jpeg
+    ├── 🖼️ Lcd_outputs.jpeg
+    ├── 🖼️ RTC_Config-1.png
+    ├── 🖼️ RTC_Config-2.png
+    ├── 🖼️ Reminder_alert.jpeg
+    ├── 🖼️ System_concept_overview.jpeg
+    ├── 🖼️ Welcome_window.png
+    ├── 🖼️ Window-1_Lcd.jpeg
+    ├── 🖼️ Window-2_Lcd.jpeg
+    └── 🖼️ Window-3_Lcd.jpeg
 ```
 
 ---

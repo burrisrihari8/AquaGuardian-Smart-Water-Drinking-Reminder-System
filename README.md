@@ -61,7 +61,9 @@ The system tracks the amount of water consumed throughout the day and displays t
 
 # 🧠 System Concept
 
+<p align="center">
   <img src="Pictures/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="50%">
+</p>
 
 # 🖥️ LCD User Interface
 
@@ -289,37 +291,6 @@ Example:
 # 🔌 Circuit Details
 
 The AquaGuardian hardware is built around the **LPC2129 ARM7 microcontroller** with the following major interfacing blocks:
-
-```text
-                         ┌──────────────────────┐
-                         │      LPC2129 ARM7    │
-                         │   Main Controller    │
-                         └──────────┬───────────┘
-                                    │
-          ┌─────────────────────────┼─────────────────────────┐
-          │                         │                         │
-          ▼                         ▼                         ▼
-   ┌─────────────┐           ┌─────────────┐           ┌─────────────┐
-   │   16×2 LCD  │           │   4×4       │           │    RTC      │
-   │ User Display│           │   Keypad    │           │ Time / Date │
-   └─────────────┘           └─────────────┘           └─────────────┘
-          │                         │                         │
-          └─────────────────────────┼─────────────────────────┘
-                                    │
-                    ┌───────────────┼───────────────┐
-                    │               │               │
-                    ▼               ▼               ▼
-              ┌──────────┐    ┌──────────┐    ┌──────────┐
-              │  EINT0   │    │  LEDs    │    │  Buzzer  │
-              │ Config   │    │ R/Y/G    │    │  Alert   │
-              └──────────┘    └──────────┘    └──────────┘
-                                    │
-                                    ▼
-                              ┌───────────┐
-                              │ Drink SW  │
-                              │ Acknowledge│
-                              └───────────┘
-```
 
 ### 🧩 Circuit Connections
 

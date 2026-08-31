@@ -33,7 +33,7 @@ The system tracks the amount of water consumed throughout the day and displays t
 ## 🧩 Project Block Diagram
 
 <p align="center">
-  <img src="Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="100%">
+  <img src="Picture/Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="100%">
 </p>
 ---
 
@@ -61,52 +61,9 @@ The system tracks the amount of water consumed throughout the day and displays t
 
 # 🧠 System Concept
 
-```text
-                    💧 AQUAGUARDIAN
-                           │
-                           ▼
-                  ┌─────────────────┐
-                  │    LPC2129      │
-                  │     ARM7        │
-                  └────────┬────────┘
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-       ⏰ RTC            ⌨️ KEYPAD        ⚡ EINT0
-          │                │                │
-          │                │                │
-          ▼                ▼                ▼
-   Reminder Timing     User Input      Configuration
-          │
-          ▼
-   ┌───────────────┐
-   │   Reminder    │
-   │    Manager    │
-   └───────┬───────┘
-           │
-      ┌────┴─────┐
-      │          │
-      ▼          ▼
-   🔊 Buzzer   🟡 LED
-      │          │
-      └────┬─────┘
-           │
-           ▼
-      🥤 Drink Switch
-           │
-           ▼
-      DrinkWater()
-           │
-           ▼
-   ┌──────────────────┐
-   │ Hydration Status │
-   └────────┬─────────┘
-            │
-            ▼
-       📊 LCD Display
-```
-
+<p align="center">
+  <img src="Picture/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="100%">
+</p>
 ---
 
 # 🖥️ LCD User Interface

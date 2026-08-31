@@ -30,6 +30,11 @@ The system tracks the amount of water consumed throughout the day and displays t
 
 ---
 
+# 🧩 Project Block Diagram
+
+       
+---
+
 # ✨ Key Features
 
 | Feature                           | Description                                     |

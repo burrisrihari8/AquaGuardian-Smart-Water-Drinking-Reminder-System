@@ -33,7 +33,7 @@ The system tracks the amount of water consumed throughout the day and displays t
 ## 🧩 Project Block Diagram
 
 <p align="center">
-  <img src="Pictures/Block Diagram.png" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="85%">
+  <img src="Pictures/Aquaguardian_Block_Diagram.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="85%">
 </p>
 ---
 

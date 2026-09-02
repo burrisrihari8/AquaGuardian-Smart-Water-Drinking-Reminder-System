@@ -498,6 +498,43 @@ The following image shows the different LCD outputs and display screens of the A
 
 ---
 
+# 🧮 Algorithm
+
+The following algorithm illustrates the step-by-step working of the **AquaGuardian Smart Water Drinking Reminder System**.
+
+<p align="center">
+  <img src="Pictures/Algorithm.png" alt="AquaGuardian Smart Water Drinking Reminder System Algorithm" width="100%">
+</p>
+
+<p align="center">
+  <i>Figure: AquaGuardian System Algorithm</i>
+</p>
+
+### 📌 Algorithm Flow
+
+The system continuously performs the following operations:
+
+1. Initialize the **LPC2148**, RTC, LCD, keypad, LEDs, buzzer and other peripherals.
+2. Display the current **time, date and hydration status** on the LCD.
+3. Check whether the daily hydration goal has been completed.
+4. Monitor the configured reminder interval.
+5. When the reminder time is reached, activate the **Yellow LED and Buzzer**.
+6. Display the drinking reminder message on the LCD.
+7. Check whether the user presses the **Drink Switch**.
+8. If the Drink Switch is pressed:
+
+   * Stop the buzzer and reminder.
+   * Increment the consumed-water count.
+   * Update the remaining water and hydration percentage.
+   * Schedule the next reminder.
+9. If the user does not respond within **30 seconds**:
+
+   * Stop the reminder.
+   * Turn OFF the buzzer and Yellow LED.
+   * Increment the missed reminder counter.
+   * Schedule the next reminder.
+10. Continuously repeat the process until the daily hydration goal is achieved.
+
 # 🧠 Embedded Concepts Demonstrated
 
 This project brings together several important embedded-systems concepts:

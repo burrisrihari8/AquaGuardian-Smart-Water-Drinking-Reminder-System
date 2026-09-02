@@ -1,7 +1,7 @@
 # 💧 AquaGuardian — Smart Water Drinking Reminder System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCU-LPC2129-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MCU-LPC2148-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/IDE-Keil%20µVision-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge">
   <img src="https://img.shields.io/badge/Platform-Embedded%20Systems-success?style=for-the-badge">
@@ -15,7 +15,7 @@
 
 ## 🌊 About the Project
 
-**AquaGuardian** is an embedded-based **Smart Water Drinking Reminder System** developed using the **LPC2129 ARM7 microcontroller**.
+**AquaGuardian** is an embedded-based **Smart Water Drinking Reminder System** developed using the **LPC2148 ARM7 microcontroller**.
 
 The system helps users maintain regular water intake by generating periodic drinking reminders. It combines an **RTC, LCD, matrix keypad, external interrupt, push button, LEDs and buzzer** to provide an interactive hydration-monitoring system.
 
@@ -35,6 +35,7 @@ The system tracks the amount of water consumed throughout the day and displays t
 <p align="center">
   <img src="Pictures/Aquaguardian_Block_Diagram.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="85%">
 </p>
+
 ---
 
 # ✨ Key Features
@@ -65,13 +66,15 @@ The system tracks the amount of water consumed throughout the day and displays t
   <img src="Pictures/System_concept_overview.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Concept" width="50%">
 </p>
 
+---
+
 # 🖥️ LCD User Interface
 
 AquaGuardian uses a **16×2 LCD** as the primary user interface.
 
 ## 🏠 Home Screen — Time & Date
 
- <img src="Pictures/Window-1_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
+<img src="Pictures/Window-1_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 Displays:
 
@@ -83,7 +86,7 @@ Displays:
 
 ## 💧 Home Screen — Hydration Status
 
- <img src="Pictures/Window-2_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
+<img src="Pictures/Window-2_Lcd.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Windows Diagram" width="25%">
 
 Displays:
 
@@ -127,20 +130,25 @@ When the user presses the **Drink Switch** during a reminder:
 Drink Switch
       │
       ▼
+
  Stop Reminder
       │
-      ├── 🔊 Buzzer OFF
-      ├── 🟡 Yellow LED OFF
+
+       ├── 🔊 Buzzer OFF
+       ├── 🟡 Yellow LED OFF
       │
       ▼
- DrinkWater()
+
+  DrinkWater()
       │
-      ├── Consumed++
-      ├── Remaining--
-      └── Percentage Updated
+
+       ├── Consumed++
+       ├── Remaining--
+       └── Percentage Updated
              │
              ▼
-       Next Reminder
+
+        Next Reminder
 ```
 
 Example:
@@ -172,20 +180,25 @@ If the user does not press the Drink Switch:
 Reminder Starts
       │
       ▼
+
 🟡 Yellow LED ON
 🔊 Buzzer ON
       │
       ▼
+
    30 Seconds
       │
       ▼
+
 Reminder Timeout
       │
-      ├── 🟡 LED OFF
-      ├── 🔊 Buzzer OFF
-      ├── MissedReminders++
+
+       ├── 🟡 LED OFF
+       ├── 🔊 Buzzer OFF
+       ├── MissedReminders++
       │
       ▼
+
 Next Reminder Scheduled
 ```
 
@@ -227,7 +240,8 @@ The user can enter configuration mode using **EINT0**.
 
 ```text
        CONFIGURATION
-              │
+             │
+
        ┌──────┼──────┐
        │      │      │
        ▼      ▼      ▼
@@ -270,7 +284,7 @@ Example:
 
 | Component             | Purpose                   |
 | --------------------- | ------------------------- |
-| **LPC2129**           | Main ARM7 microcontroller |
+| **LPC2148**           | Main ARM7 microcontroller |
 | **16×2 LCD**          | User interface            |
 | **4×4 Matrix Keypad** | Configuration/input       |
 | **RTC**               | Time/date tracking        |
@@ -285,26 +299,26 @@ Example:
 
 # 🔌 Circuit Details
 
-The AquaGuardian hardware is built around the **LPC2129 ARM7 microcontroller** with the following major interfacing blocks:
+The AquaGuardian hardware is built around the **LPC2148 ARM7 microcontroller** with the following major interfacing blocks:
 
 ### 🧩 Circuit Connections
 
-| Module | Interface / Connection | Purpose |
-| --- | --- | --- |
-| **LPC2129 ARM7** | Main controller | Executes the complete application |
-| **16×2 LCD** | GPIO interface | Displays time, date, hydration and reminder information |
-| **4×4 Matrix Keypad** | GPIO rows/columns | Configuration and numeric input |
-| **Internal RTC** | LPC2129 RTC peripheral | Maintains time, date and day |
-| **Drink Push Button** | GPIO input | Acknowledges water consumption |
-| **Red LED** | GPIO output | Indicates low hydration progress |
-| **Yellow LED** | GPIO output | Indicates active reminder |
-| **Green LED** | GPIO output | Indicates goal completion |
-| **Buzzer** | GPIO output | Generates the reminder alert |
-| **EINT0** | External interrupt input | Provides quick access to configuration |
+| Module                | Interface / Connection   | Purpose                                                 |
+| --------------------- | ------------------------ | ------------------------------------------------------- |
+| **LPC2148 ARM7**      | Main controller          | Executes the complete application                       |
+| **16×2 LCD**          | GPIO interface           | Displays time, date, hydration and reminder information |
+| **4×4 Matrix Keypad** | GPIO rows/columns        | Configuration and numeric input                         |
+| **Internal RTC**      | LPC2148 RTC peripheral   | Maintains time, date and day                            |
+| **Drink Push Button** | GPIO input               | Acknowledges water consumption                          |
+| **Red LED**           | GPIO output              | Indicates low hydration progress                        |
+| **Yellow LED**        | GPIO output              | Indicates active reminder                               |
+| **Green LED**         | GPIO output              | Indicates goal completion                               |
+| **Buzzer**            | GPIO output              | Generates the reminder alert                            |
+| **EINT0**             | External interrupt input | Provides quick access to configuration                  |
 
 ### ⚡ Circuit Working
 
-1. The **LPC2129** initializes all peripherals after power-on.
+1. The **LPC2148** initializes all peripherals after power-on.
 2. The **RTC** provides the current time and date used for reminder scheduling.
 3. The **LCD** continuously displays the current system and hydration status.
 4. The **4×4 keypad** allows the user to configure the RTC, daily water goal and reminder interval.
@@ -320,13 +334,13 @@ The AquaGuardian hardware is built around the **LPC2129 ARM7 microcontroller** w
 # 💻 Software
 
 ```text
-Microcontroller : LPC2129 ARM7
+Microcontroller : LPC2148 ARM7
 IDE             : Keil µVision
 Language        : Embedded C
 Simulation      : Proteus
 LCD             : 16×2 Character LCD
 Keypad          : 4×4 Matrix Keypad
-RTC             : LPC2129 Internal RTC
+RTC             : LPC2148 Internal RTC
 ```
 
 ---
@@ -339,16 +353,18 @@ RTC             : LPC2129 Internal RTC
                  │   System Control   │
                  └─────────┬──────────┘
                            │
+
         ┌──────────────────┼──────────────────┐
         │                  │                  │
         ▼                  ▼                  ▼
-   ┌─────────┐       ┌───────────┐      ┌──────────┐
+   ┌─────────┐       ┌───────────┐      ┌───────────┐
    │  rtc.c  │       │reminder.c │      │hydration.c│
-   └─────────┘       └───────────┘      └──────────┘
+   └─────────┘       └───────────┘      └───────────┘
         │                  │                  │
         └──────────────────┼──────────────────┘
                            │
                            ▼
+
                     ┌────────────┐
                     │ display.c  │
                     └─────┬──────┘
@@ -442,22 +458,27 @@ AquaGuardian/
   <img src="Pictures/Flow_diagram.jpeg" alt="AquaGuardian Smart Water Drinking Reminder System Block Diagram" width="500">
 </p>
 
---
+---
 
 # 🟢 LED Status
 
 ```text
 🔴 RED LED
    ↓
+
 Low hydration progress
 Percentage < 50%
 
+
 🟡 YELLOW LED
    ↓
+
 Reminder currently active
+
 
 🟢 GREEN LED
    ↓
+
 Daily hydration goal achieved
 ```
 
@@ -475,11 +496,13 @@ The following image shows the different LCD outputs and display screens of the A
   <i>Figure: AquaGuardian LCD Display Outputs</i>
 </p>
 
+---
+
 # 🧠 Embedded Concepts Demonstrated
 
 This project brings together several important embedded-systems concepts:
 
-* 🔹 ARM7 LPC2129 programming
+* 🔹 ARM7 LPC2148 programming
 * 🔹 GPIO configuration
 * 🔹 LCD interfacing
 * 🔹 Matrix keypad scanning
@@ -606,6 +629,8 @@ MissedReminders++
 
 and the system returns to normal operation.
 
+---
+
 # 🚀 Future Improvements
 
 Possible future enhancements include:
@@ -636,13 +661,14 @@ Instead of treating the RTC, LCD, keypad, interrupts, GPIO, LEDs and buzzer as i
 # 👨‍💻 Project
 
 **AquaGuardian — Smart Water Drinking Reminder System**
+
 ## 👨‍💻 Author
 
 **BURRI SRIHARI**
 
 ### 🔧 Embedded Systems / ARM7 Project
 
-**Platform:** LPC2129 ARM7
+**Platform:** LPC2148 ARM7
 **Development Environment:** Keil µVision
 **Programming Language:** Embedded C
 **Application Area:** Embedded Systems / Healthcare / Smart Monitoring
